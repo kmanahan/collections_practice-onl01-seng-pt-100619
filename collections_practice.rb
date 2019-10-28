@@ -37,6 +37,7 @@ def sum_array(arr)
 end
 
 def add_s(arr)
+<<<<<<< HEAD
  arr.each_with_index.collect do |x, i| 
     if i == 1
      	x
@@ -47,4 +48,10 @@ end
 end
 
 
+=======
+ arr.each_with_index.collect do |x, i| unless i == 1 "#{x}s"
+end
+end
+
+>>>>>>> cc662fd5fcf1dbf2536a2b6527fe929f153fa8c8
 
